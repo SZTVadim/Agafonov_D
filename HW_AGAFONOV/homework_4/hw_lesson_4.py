@@ -28,7 +28,7 @@ print(delete_space.rstrip())
 
 text_task_4 = "яблоко,банан,апельсин,груша"
 text_task_4_1 = text_task_4.split(",")
-text_task_4_2 = "|".join(text_task_4_1)
+text_task_4_2 = " | ".join(text_task_4_1)
 print(text_task_4_1)
 print(text_task_4_2)
 
