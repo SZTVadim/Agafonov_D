@@ -63,5 +63,3 @@ text_task_9 = "Он сказал: \"Привет\""
 text_task_9_1 = "Первая строка\nВторая строка"
 print(text_task_9)
 print(text_task_9_1)
-
-
