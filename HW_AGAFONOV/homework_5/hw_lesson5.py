@@ -11,7 +11,7 @@ print(fruits)
 fruits = ["яблоко", "банан", "апельсин", "банан"]
 fruits.remove("банан")
 print(fruits)
-delete_fruit = fruits.pop(2)
+delete_fruit = fruits.pop()
 print(delete_fruit)
 
 # ЗАДАНИЕ 3: Поиск элементов в списке
