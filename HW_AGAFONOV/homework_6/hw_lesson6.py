@@ -1,12 +1,12 @@
 student = {
-    "имя" : "Иван",
-    "возраст" : 20,
-    "курс" : 2,
+    "имя": "Иван",
+    "возраст": 20,
+    "курс": 2,
     "город" : "Москва"
 }
 print(student.keys())
 print(student.values())
-for key,value in student.items():
+for key, value in student.items():
     print(f"Ключ: {key}, Значение: {value}")
 
 for value in student.values():
