@@ -2,7 +2,7 @@ student = {
     "имя": "Иван",
     "возраст": 20,
     "курс": 2,
-    "город" : "Москва"
+    "город": "Москва"
 }
 print(student.keys())
 print(student.values())
