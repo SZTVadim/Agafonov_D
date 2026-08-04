@@ -1,11 +1,11 @@
 # ЗАДАНИЕ 1: Работа с множествами
 fruits = {"яблоко", "банан"}
 fruits.add("апельсин")
-set_fruits =["груша", "виноград"]
+set_fruits = ["груша", "виноград"]
 fruits.update(set_fruits)
 fruits.discard("банан")
 fruits.discard("киви")
-#fruits.remove("киви")
+# fruits.remove("киви")
 deleted_fruit = fruits.pop()
 print(deleted_fruit)
 print(fruits)
