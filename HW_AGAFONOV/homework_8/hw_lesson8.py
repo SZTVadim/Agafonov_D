@@ -14,7 +14,6 @@ users = {
 new_dict = {login: len(password) for login, password in users.items()}
 print(new_dict)
 
-
 # ЗАДАНИЕ 3: Кортеж и tuple(...)
 scores = (10, 7, 0, 9, 8, 5)
 change_score = tuple(score * 1.1 for score in scores)
