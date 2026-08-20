@@ -9,8 +9,6 @@ def calculate_total(price, tax_percent):
         return price + price * tax_percent / 100
 
 
-
-
 # 2. Создайте функцию get_level(points):
 
 
