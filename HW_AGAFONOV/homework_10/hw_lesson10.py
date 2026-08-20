@@ -19,9 +19,8 @@ browser = {"browser": "chrome", "timeout": 3000}
 options = {"headless": True, "timeout": 5000}
 
 config = {**browser, **options}
-
-
 def start_session(browser, timeout, headless):
     return f"{browser}, timeout={timeout}, headless={headless}"
+
 
 print(start_session(**config))
