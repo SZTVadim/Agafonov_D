@@ -5,8 +5,7 @@
 def calculate_total(price, tax_percent):
     if tax_percent > 20 or price < 0:
         return "Ошибка!"
-    else:
-        return price + price * tax_percent / 100
+    return price + price * tax_percent / 100
 
 
 # 2. Создайте функцию get_level(points):
