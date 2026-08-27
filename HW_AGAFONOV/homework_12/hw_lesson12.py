@@ -1,7 +1,7 @@
 # ЗАДАНИЕ 1: Класс Book (Книга)
 class Book:
 
-    def __init__(self,title, author, pages):
+    def __init__(self, title, author, pages):
         self.title = title
         self.author = author
         self.pages = pages
@@ -13,15 +13,16 @@ class Book:
         return self.pages > 300
 
 
-book_1 = Book("Война и мир" , "Толстой",  900)
-book_2 = Book("Гарри Поттер" , "Роулинг", 401)
-book_3 = Book("Красная шапочка" , "Шарль Перро", 100)
+book_1 = Book("Война и мир", "Толстой", 900)
+book_2 = Book("Гарри Поттер", "Роулинг", 401)
+book_3 = Book("Красная шапочка", "Шарль Перро", 100)
 print(book_1.get_info())
 print(book_1.is_long())
 print(book_2.get_info())
 print(book_2.is_long())
 print(book_3.get_info())
 print(book_3.is_long())
+
 
 # ЗАДАНИЕ 2: Класс BankAccount (Банковский счёт)
 class BankAccount:
