@@ -9,7 +9,7 @@ class TestCase:
         return self.status == "new"
 
     def finish(self, result, duration):
-        if self.can_run() == False:
+        if not self.can_run():
             return False
         elif result != "passed" and result != "failed":
             return False
