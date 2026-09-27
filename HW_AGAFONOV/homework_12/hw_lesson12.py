@@ -47,6 +47,8 @@ class BankAccount:
 
 
 money = BankAccount("Игорь", 1500)
+print(money.deposit(1099))
+print(money.get_balance())
 print(money.withdraw(1499))
 print(money.get_balance())
 print(money.withdraw(1501))
