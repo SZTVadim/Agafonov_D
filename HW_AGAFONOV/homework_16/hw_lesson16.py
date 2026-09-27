@@ -4,7 +4,7 @@
 # открывает файл через with open(...), построчно читает его и выводит только строки с переданным типом.
 # Для проверки вызовите find_log_entries("ERROR").
 def type_log(typet):
-    with open("/Users/denchik/PycharmProjects/WelcomeScreen/Agafonov_D/data_test/application.log", "r") as file:
+    with open("data_test/application.log", "r") as file:
         for line in file:
             if typet in line:
                 print(line.strip())
