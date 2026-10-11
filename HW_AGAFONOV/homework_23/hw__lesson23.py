@@ -13,8 +13,8 @@ def test_open_form(page: Page):
     last_name = page.locator("#lastName")
     last_name.fill("Agafonov")
 
-    userEmail = page.locator("#userEmail")
-    userEmail.fill("danyaagaffonov04@gmail.com")
+    user_email = page.locator("#userEmail")
+    user_email.fill("danyaagaffonov04@gmail.com")
 
     gender_radio_button = page.locator("#gender_0")
     gender_radio_button.check()
@@ -56,7 +56,7 @@ def test_open_form(page: Page):
 
     expect(first_name).to_have_value("Danil")
     expect(last_name).to_have_value("Agafonov")
-    expect(userEmail).to_have_value("danyaagaffonov04@gmail.com")
+    expect(user_email).to_have_value("danyaagaffonov04@gmail.com")
     expect(gender_radio_button).to_be_checked()
     expect(number_of_telephone).to_have_value("8950568062")
     expect(current_address).to_have_value("Kaliningrad")
