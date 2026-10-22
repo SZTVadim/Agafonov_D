@@ -9,7 +9,7 @@ a[href="/web/index.php/dashboard/index"] или //span[text()='Dashboard']
 # Upgrade
 .orangehrm-upgrade-button или //button[contains(@class,'orangehrm-upgrade-button')]
 # профиль
-.oxd-userdropdown-tab или //span[contains(@class,'orangehrm-upgrade-button')]
+.oxd-userdropdown-tab или // span[contains( @ class, 'oxd-userdropdown-tab')]
 
 # шестеренка
 .orangehrm-leave-card-icon или //i[contains(@class,'orangehrm-leave-card-icon')]
