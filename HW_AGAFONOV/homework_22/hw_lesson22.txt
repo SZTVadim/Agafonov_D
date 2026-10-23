@@ -1,0 +1,17 @@
+# Кнопка поиска
+input[placeholder="Search"] или //input[@placeholder="Search"]
+# Кнопка стрелки назад
+button.oxd-main-menu-button или //button[contains(@class,'oxd-main-menu-button')]
+# дашборд
+a[href="/web/index.php/dashboard/index"] или //span[text()='Dashboard']
+# My Actions
+//p[text()='My Actions']
+# Upgrade
+.orangehrm-upgrade-button или //button[contains(@class,'orangehrm-upgrade-button')]
+# профиль
+.oxd-userdropdown-tab или // span[contains( @ class, 'oxd-userdropdown-tab')]
+
+# шестеренка
+.orangehrm-leave-card-icon или //i[contains(@class,'orangehrm-leave-card-icon')]
+# Engeneering
+span[title="Engineering"] или //span[@title='Engineering']
